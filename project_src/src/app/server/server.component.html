@@ -1,0 +1,14 @@
+<input type="text" [(ngModel)]="name">
+<p>{{name}}</p>
+<p>Id is {{ serverId }} </p>
+<p [ngStyle]="{backgroundColor : getColor()}">Status is {{ getServerStatus() }}</p>
+
+<button class="button button-primary" (click)="updateServer()">
+    Add 
+</button>
+
+<button class="button button-primary" (click)="updateServer()">
+    Add 
+</button>
+
+<p>{{serverCreationStatus}}</p>
